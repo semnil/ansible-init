@@ -1,0 +1,7 @@
+---
+- name: Hello world
+  hosts: all
+  user: root
+
+  roles:
+    - debug
